@@ -78,9 +78,9 @@
     // console.log(sumBudget)
 
 
-    const sumBudget = people
-    .filter(p => p.budget > 800)
-    .map(p => p.budget)
-    .reduce((acc, p) => acc + p)
+    // const sumBudget = people
+    // .filter(p => p.budget > 800)
+    // .map(p => p.budget)
+    // .reduce((acc, p) => acc + p)
 
-    console.log(sumBudget)
+    // console.log(sumBudget)
