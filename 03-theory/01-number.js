@@ -52,10 +52,10 @@ const strFloat = '25.25'
 // console.log(Math.trunc(8.4))
 // console.log(Math.random())
 
-function getRandomNum (min, max){
-    return Math.floor(Math.random() * (max - min + 1) + min)
-}
+// function getRandomNum (min, max){
+//     return Math.floor(Math.random() * (max - min + 1) + min)
+// }
 
-const num1 = getRandomNum(10, 25)
+// const num1 = getRandomNum(10, 25)
 
-console.log(num1)
+// console.log(num1)
