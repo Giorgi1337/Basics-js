@@ -19,6 +19,7 @@ minusBtn.onclick = function () {
 
 
 function showResult(result) {
+    // console.log('Result to print',result)
     if (result < 0) {
         resultElement.style.color = 'red' 
      }else {
@@ -28,14 +29,15 @@ function showResult(result) {
 }
 
 function computeNumbersWithAction(inp1, inp2, actionSymbol) {
-    const num1 = Number(inp1.value)
-    const num2 = Number(inp2.value)
+    const num1 = inp1.value
+    const num2 = inp2.value
     // if(actionSymbol == '+') {
     //     return num1 + num2
     // }else if (actionSymbol == '-') {
     //     return num1 - num2
     // }
-    return actionSymbol == '+' ? num1 + num2 : num1 - num2
+    const result = +actionSymbol == '+' ? num1 + num2 : num1 - num2
+    return result
 }
 
 
